@@ -214,3 +214,12 @@ sns.displot(data=penguins, x="flipper_length_mm", hue="species", col="species")
 надо лезть в голый матплотлиб
 
 
+
+
+Вот это я так и не применил, хотя видимо зря.
+
+# ВНИМАНИЕ, ПОЗДНЯЯ ЗАПЛАТКА.
+# Из соображений унификации, исправляю ПЕРИОД для события Level_choice: считаю не от предыдущего, а строго от registration. Это очень информативно.
+# user_events_wide['gap:level_choice'] = user_events_wide['first:level_choice'] - user_events_wide['first:registration']
+# Отменяется. Добавлю на этапе рисования.
+
